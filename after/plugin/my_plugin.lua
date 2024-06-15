@@ -8,7 +8,7 @@ function OpenWin()
     local bufH = math.floor((winH - 2) / 1.5)
     --[[ local bufW = 10
     local bufH = 1 ]]
-    local title = "Input"
+    local title = "Utility"
 
     -- Create options
     local opts = {

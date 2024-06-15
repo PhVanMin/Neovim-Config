@@ -11,7 +11,7 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 -- greatest remap ever
-vim.keymap.set("x", "<leader>q", "\"_dP")
+vim.keymap.set("x", "<leader>p", "\"_dP")
 
 -- next greatest remap ever : asbjornHaland
 vim.keymap.set("n", "<leader>y", "\"+y")
@@ -38,8 +38,8 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 vim.keymap.set("i", "`", "``<left>")
 vim.keymap.set("i", "\'", "\'\'<left>")
 vim.keymap.set("i", "\"", "\"\"<left>")
-vim.keymap.set("i", "(", "()<left>")
+--[[ vim.keymap.set("i", "(", "()<left>")
 vim.keymap.set("i", "[", "[]<left>")
 vim.keymap.set("i", "{", "{}<left>")
-vim.keymap.set("i", "<", "<><left>")
+vim.keymap.set("i", "<", "<><left>") ]]
 vim.keymap.set("i", "{<CR>", "{<CR>}<ESC>O")
