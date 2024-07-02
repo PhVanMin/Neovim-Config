@@ -21,6 +21,13 @@ require('mason-lspconfig').setup({
                         return primary or vim.fn.getcwd()
                     end
                 })
+                -- elseif server_name == 'tsserver' then
+                --     config[server_name].setup({
+                --         on_init = function(client)
+                --             client.server_capabilities.documentFormattingProvider = false
+                --             client.server_capabilities.documentFormattingRangeProvider = false
+                --         end,
+                --     })
             else
                 config[server_name].setup({})
             end
