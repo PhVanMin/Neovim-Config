@@ -12,6 +12,14 @@ return require('packer').startup(function(use)
         wants = { 'nvim-treesitter' }, -- (optional) or require if not used so far
         after = { 'nvim-cmp' } -- if a completion plugin is using tabs load it before
     }
+
+    use {
+        "windwp/nvim-ts-autotag",
+        config = function()
+            require("nvim-ts-autotag").setup()
+        end
+    }
+
     use {
         "windwp/nvim-autopairs",
         event = "InsertEnter",
