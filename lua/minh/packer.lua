@@ -15,10 +15,7 @@ return require('packer').startup(function(use)
 
     use "stevearc/conform.nvim"
     use {
-        "windwp/nvim-ts-autotag",
-        config = function()
-            require("nvim-ts-autotag").setup()
-        end
+        "windwp/nvim-ts-autotag"
     }
 
     use {
