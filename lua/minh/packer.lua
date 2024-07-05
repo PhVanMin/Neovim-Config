@@ -13,7 +13,6 @@ return require('packer').startup(function(use)
         after = { 'nvim-cmp' }         -- if a completion plugin is using tabs load it before
     }
 
-    use "stevearc/conform.nvim"
     use {
         "windwp/nvim-ts-autotag"
     }
