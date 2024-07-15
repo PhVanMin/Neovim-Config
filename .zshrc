@@ -108,9 +108,10 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 #
 # Example aliases
 alias zs="source ~/.zshrc"
-alias web="cd Code/Web"
-alias itp="cd Code/Learning/C/interpreter"
+alias web="cd ~/Code/Web"
+alias itp="cd ~/Code/Learning/C/interpreter"
 alias v="nvim ."
-alias pfl="cd Code/Web/portfolio"
-alias vicf="cd .config/nvim; v"
+alias web="cd ~/Code/Web/"
+alias vicf="cd ~/.config/nvim; v"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
